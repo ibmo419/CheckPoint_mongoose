@@ -1,0 +1,16 @@
+{
+  "name": "mongoose_checkpoint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "myapp.js",
+  "scripts": {
+    "dev":"nodemon myapp.js"
+  },
+  "keywords": [],
+  "author": "Mohamed Ali",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.2"
+  }
+}
