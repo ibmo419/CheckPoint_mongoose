@@ -1,7 +1,7 @@
 const mongoose =require ('mongoose');
 const express=require ('express')
 const personController=require('./controllers/personController')
-
+require('dotenv').config()
 mongoose.connect("mongodb://localhost:27017/mongoose_app", {useNewUrlParser: true,useUnifiedTopology: true,})
      
       .then(() => {
